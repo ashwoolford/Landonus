@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Land onus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message">This call will not be free .Call charge will be same as your sim provider charges</string>
+    <string name="title">Do you want to call ? </string>
+</resources>

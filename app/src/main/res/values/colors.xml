@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="dividerColor">#d9d9d9</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="lightBlue">#BBDEFB</color>
+    <color name="normalTextColor">#B6B6B6</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="Green">#4CAF50</color>
+    <color name="TextColorD">#595959</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editorColorPrimary">#2D3640</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editorColorPrimaryDark">#394450</color>
+    <color name="editorColorAccent">#F0514B</color>
+</resources>

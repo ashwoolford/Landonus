@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Add new member"
+       />
+    <item
+
+        android:title="Add maintain cost"
+        />
+    <item
+
+        android:title="Proceed  checkout"
+       />
+    <item
+        android:id="@+id/dd"
+        android:title="Leave this flat"/>
+
+</menu>

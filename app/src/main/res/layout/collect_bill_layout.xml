@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/home_icon"
+            android:src="@drawable/building_land"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textColor="#666666"
+            android:id="@+id/flatTitle"
+            android:text="FA-01"/>
+
+            <EditText
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColorHighlight="#808080"
+                android:shadowColor="#808080"
+                android:textColorLink="#808080"
+                android:textColor="#808080"
+                android:textSize="15dp"
+                android:textColorHint="#808080"
+                android:id="@+id/editTextDue"
+                android:hint="Rent of this month"
+                android:layout_weight="6"/>
+
+
+
+        <com.dx.dxloadingbutton.lib.LoadingButton
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:lb_btnColor="@color/colorPrimary"
+            app:lb_btnText="Add"
+            android:padding="5dp"
+            android:id="@+id/loading_button"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#ccc"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Process payments"
+        android:id="@+id/makeBills"
+        />
+    <item
+        android:title="Collect payments"
+        android:id="@+id/collectBills"/>
+
+
+</menu>
